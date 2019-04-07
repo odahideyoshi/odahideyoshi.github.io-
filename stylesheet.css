@@ -1,0 +1,36 @@
+h1{
+  font-style:italic;
+  font-size:45px;
+  color:red;
+}
+
+h2{
+  font-size:30px;
+}
+
+p{
+  font-size:25px;
+}
+
+a {
+  font-size:20px;
+}
+
+img{
+  width:600px;
+  height:400px;
+  margin:50px;
+  border:10px solid #505050;
+}
+
+iframe{
+  width:600px;
+  height:400px;
+  margin:50px;
+} 
+
+input{
+  width:80px;
+  height:50px;
+  margin:10px;
+}
