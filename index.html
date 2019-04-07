@@ -1,0 +1,32 @@
+<DOCTYPE html>
+<html>
+	<head>
+   	<meta charset="UTF-8">
+		<title>VanHalen</title>
+      <link rel="stylesheet" href="style.css" />
+   </head>
+
+   <script>
+   function num(n){
+      r=eval(document.FORM.result.value);
+      m=r+n;
+      document.FORM.result.value=m;
+}
+   </script>
+   <body>
+		<h1>Super Guitarist Eddie Van Halen</h1>
+		<h2>MyFavoriteGuitarist</h2>
+		<p>He is a guitarist of VanHalen</p>
+		<img src="img/20190401220823.png">
+      <br>
+		<a href="https://m.youtube.com/watch?v=SwYN7mTi6HM">Van halen-Jump</a>
+<br>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/SwYN7mTi6HM?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fuKDBPw8wQA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<p>You like Van Halen?</p>
+      <form name="FORM">
+      <input type="button"value="Yes" onclick="num(1)">
+      <input type="text"name="result"value="0">
+      </form>
+   </body>
+</html>
